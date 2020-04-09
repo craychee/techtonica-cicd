@@ -6,10 +6,13 @@
   "subdomain": "revealjs",
   "main": "js/reveal.js",
   "eslintConfig": {
-    "plugins": ["html"]
+    "plugins": [
+      "html"
+    ]
   },
   "scripts": {
     "test": "eslint index.html",
+    "build": "grunt",
     "start": "grunt serve"
   },
   "author": {
