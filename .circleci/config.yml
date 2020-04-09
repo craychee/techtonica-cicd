@@ -16,11 +16,7 @@ jobs:
 workflows:
     do_it:
       jobs:
-        - build-and-test:
-            filters:
-              branches:
-                ignore:
-                  - master
+        - build-and-test
         - heroku/deploy-via-git: # This is a pre-configured job.
             requires:
               - build-and-test

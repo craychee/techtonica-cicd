@@ -6,4 +6,4 @@ We will be deploying a [reveal.js](https://github.com/hakimel/reveal.js)
 slideshow to Heroku via circleci.
 
 See the final project here:
-[![techtonica-cicd.herokuapp.com](https://techtonica-cicd.herokuapp.com/#/)]
+[techtonica-cicd.herokuapp.com](https://techtonica-cicd.herokuapp.com/#/)
