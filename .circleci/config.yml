@@ -28,4 +28,3 @@ workflows:
               branches:
                 only:
                   - master
-                  - heroku-deploy-test

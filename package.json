@@ -13,7 +13,6 @@
   "scripts": {
     "test": "eslint index.html",
     "build": "grunt",
-    "dev": "grunt serve",
     "start": "node web.js"
   },
   "author": {
